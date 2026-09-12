@@ -1,0 +1,59 @@
+print("\nWe will start by finding the product")
+Number1 = float(input("Please enter in the first number: "))
+
+Number2 = int(input("Please enter in the second number: "))
+
+# This step takes the 2 imputed numbers and multiplies them together
+
+product = Number1 * Number2
+
+# shows the results on the screen
+print(f"the product of {Number1} and {Number2} is: {product}")
+
+# Asking the user for the numerator
+print("\nWe will now divide")
+Number1 = float(input("Please enter in the numerator (Number1): "))
+# Asking the user for the denominator
+Number2 = int(input("Please enter a non zero number for the denominator (Number2): "))
+
+# Calculating the quotient
+print("\nWe will now find the quotient")
+answer = Number1 / Number2
+print(f"the answer to your query is: {answer}")
+
+# Calculating Quotient without remainder
+print("\nWe will now find the quotient without remainder")
+Number1 = int(input("Please enter in the first number: "))
+Number2 = int(input("Please enter in the second number: "))
+answer = Number1 // Number2
+print(f"the answer without the remainder is: {answer}")
+
+# Calculating the remainder
+print("\nLet's find the remainder")
+number1 = int(input("Please enter the numerator: "))
+number2 = int(input("Please enter a non zero number for the denominator: "))
+
+remainder = number1 % number2
+print("the answer to your query is: ", remainder)
+
+# Adding 2 large numbers
+print("\nNow we are going to add 2 large numbers")
+Number1str = input("Please enter the first large number: ")
+Number2str = input("Please enter the second large number: ")
+
+bignumber1 = int(Number1str)
+bignumber2 = int(Number2str)
+
+# summing up the two large numbers imputed by user
+bigsum = bignumber1 + bignumber2
+
+# displaying sum
+print("the answer to your query is: ", bigsum)
+
+# subtracting 2 large number
+print("\nNow we are going to subtract 2 large numbers")
+Number1str = input("Please enter the first large number: ")
+Number2str = input("Please enter the second large number: ")
+
+bigdifference = bignumber1 - bignumber2
+print("the answer to your query is: ", bigdifference)
