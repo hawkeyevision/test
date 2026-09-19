@@ -11,4 +11,4 @@ print("\nCounting:")
 for i in range(1, max_number + 1):
     print(i)
 
-print("All done now!")
+print("All done counting!")
